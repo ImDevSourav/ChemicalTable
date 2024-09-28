@@ -1,0 +1,18 @@
+[
+    { "id": 1, "chemicalName": "Chemical A", "vendor": "Vendor A", "density": "1.2", "viscosity": "10", "packaging": "Bottle", "packSize": "500 mL", "unit": "mL", "quantity": 20 },
+    { "id": 2, "chemicalName": "Chemical B", "vendor": "Vendor B", "density": "1.5", "viscosity": "12", "packaging": "Drum", "packSize": "1 L", "unit": "L", "quantity": 15 },
+    { "id": 3, "chemicalName": "Chemical C", "vendor": "Vendor C", "density": "1.8", "viscosity": "8", "packaging": "Bag", "packSize": "2 Kg", "unit": "Kg", "quantity": 10 },
+    { "id": 4, "chemicalName": "Chemical D", "vendor": "Vendor D", "density": "1.3", "viscosity": "9", "packaging": "Bottle", "packSize": "250 mL", "unit": "mL", "quantity": 30 },
+    { "id": 5, "chemicalName": "Chemical E", "vendor": "Vendor E", "density": "1.6", "viscosity": "14", "packaging": "Can", "packSize": "5 L", "unit": "L", "quantity": 5 },
+    { "id": 6, "chemicalName": "Chemical F", "vendor": "Vendor A", "density": "1.2", "viscosity": "10", "packaging": "Bottle", "packSize": "500 mL", "unit": "mL", "quantity": 20 },
+    { "id": 7, "chemicalName": "Chemical G", "vendor": "Vendor B", "density": "1.5", "viscosity": "12", "packaging": "Drum", "packSize": "1 L", "unit": "L", "quantity": 15 },
+    { "id": 8, "chemicalName": "Chemical H", "vendor": "Vendor C", "density": "1.8", "viscosity": "8", "packaging": "Bag", "packSize": "2 Kg", "unit": "Kg", "quantity": 10 },
+    { "id": 9, "chemicalName": "Chemical K", "vendor": "Vendor D", "density": "1.3", "viscosity": "9", "packaging": "Bottle", "packSize": "250 mL", "unit": "mL", "quantity": 30 },
+    { "id": 10, "chemicalName": "Chemical L", "vendor": "Vendor E", "density": "1.6", "viscosity": "14", "packaging": "Can", "packSize": "5 L", "unit": "L", "quantity": 5 },
+    { "id": 11, "chemicalName": "Chemical M", "vendor": "Vendor A", "density": "1.2", "viscosity": "10", "packaging": "Bottle", "packSize": "500 mL", "unit": "mL", "quantity": 20 },
+    { "id": 12, "chemicalName": "Chemical N", "vendor": "Vendor B", "density": "1.5", "viscosity": "12", "packaging": "Drum", "packSize": "1 L", "unit": "L", "quantity": 15 },
+    { "id": 13, "chemicalName": "Chemical O", "vendor": "Vendor C", "density": "1.8", "viscosity": "8", "packaging": "Bag", "packSize": "2 Kg", "unit": "Kg", "quantity": 10 },
+    { "id": 14, "chemicalName": "Chemical P", "vendor": "Vendor D", "density": "1.3", "viscosity": "9", "packaging": "Bottle", "packSize": "250 mL", "unit": "mL", "quantity": 30 },
+    { "id": 15, "chemicalName": "Chemical Q", "vendor": "Vendor E", "density": "1.6", "viscosity": "14", "packaging": "Can", "packSize": "5 L", "unit": "L", "quantity": 5 }
+
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Inventory</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Toolbar and Heading Row Outside the Table -->
+    <div id="buttonRow">
+        <span class="header-text">Chemical Supplies</span>
+        <div class="table-toolbar">
+            <button id="addRowBtn" title="Add Row" class="icon-btn"><i class="fa-solid fa-circle-plus" style="color: blue;"></i></button>
+            <button id="moveUpBtn" title="Move Up" class="icon-btn"><i class="fa-solid fa-arrow-up" style="color: blue;"></i></button>
+            <button id="moveDownBtn" title="Move Down" class="icon-btn"><i class="fas fa-arrow-down"style="color: #bfbfbf "></i></button>
+            <button id="deleteRowBtn" title="Delete Row" class="icon-btn"><i class="fas fa-trash" style="color: #e60000 "></i></button>
+            <button id="refreshBtn" title="Refresh" class="icon-btn"><i class="fa-solid fa-arrow-rotate-left" style="color: blue"></i></button>
+            <button id="saveBtn" title="Save" class="icon-btn"><i class="fa-regular fa-floppy-disk" style="color: blue"></i></button>
+        </div>
+    </div>
+
+    <!-- Table Structure -->
+    <table id="chemicalTable">
+        <thead>
+            <tr>
+                <th>Chemical Name</th>
+                <th>Vendor</th>
+                <th>Density<br/><span style="color: #cccccc ;">g/m³</span></th>
+                <th>Viscosity<br/><span style="color: #cccccc ;">m²/s</span></th>    
+                <th>Packaging</th>
+                <th>Pack Size</th>
+                <th>Unit</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

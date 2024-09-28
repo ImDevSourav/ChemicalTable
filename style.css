@@ -1,0 +1,190 @@
+/* General reset for margins and padding */
+* {
+    font-family: 'Roboto Mono', monospace; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Upper row for buttons and heading */
+#buttonRow {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+/* Table Styling */
+table {
+    margin: 50px auto 0;
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 3px;
+    border: 2px solid #ddd;
+    background-color: white;
+}
+
+thead {
+    position: sticky;
+    top: 40px;
+    background-color: white;
+    z-index: 5;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for header text */
+.header-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Toolbar styling */
+.table-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Editable cells styling */
+.editable-cell {
+    border: 2px solid #cccccc;
+    border-radius: 2px;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Spacing between Density and Viscosity cells */
+td.density {
+    margin-right: 5px;
+}
+
+td.viscosity {
+    margin-left: 5px;
+}
+
+/* Cell editing styles */
+.editing {
+    border-color: blue !important;
+    background-color: #f0faff;
+}
+
+/* Row selected with tick */
+.row-selected {
+    background-color: #3498db !important;
+    color: white;
+}
+
+/* Tick icon styles */
+.tick-selected {
+    color: blue;
+}
+
+.tick-unselected {
+    color: #ccc;
+}
+
+/* Button Styles */
+.icon-btn {
+    font-size: 20px;
+    margin-right: 40px;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.table-toolbar button:last-child {
+    margin-right: 0;
+}
+
+/* Selected row style */
+tr.selected-row td {
+    background-color: rgba(248, 247, 250, 0.079) !important;
+}
+
+/* Highlight row when a cell is being edited */
+.editing-row td {
+    background-color: #e0f7fa;
+}
+
+/* Keep the editing cell white */
+.editing-row .editing {
+    background-color: white !important;
+    border-color: blue !important;
+}
+
+/* Density and Viscosity cell borders */
+td.density, td.viscosity {
+    border: 2px solid blue;
+}
+
+/* Remove right border to avoid touching */
+td.density {
+    border-right: none;
+}
+
+/* Styling for selected row */
+.selected-row {
+    background-color: #d1e7dd;
+}
+
+/* Tick icon color */
+.tick-selected {
+    color: blue;
+}
+
+.tick-unselected {
+    color: #bfbfbf;
+}
+
+/* Fixed width for unit columns */
+.unit-column {
+    width: 80px;
+}
+
+/* Vendor column style */
+.editable-chemical-name {
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Table header styles */
+th {
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    max-width: 100px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .table-toolbar {
+        right: 10px;
+    }
+
+    .header-text {
+        left: 20px;
+    }
+}
